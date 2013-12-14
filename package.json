@@ -1,0 +1,18 @@
+{
+	"name" : "diet-dictionary",
+	"version": "v0.0.1",
+	"description": "Translation Engine for Dietjs",
+	"keywords": ["translate", "dictionary", "translation engine", "mysql", "diet", "client side translation", "server side translation", "language", "languages"],
+	"bugs" : { 
+		"url" : "http://github.com/adamhalasz/diet-accounts/issues"
+	, "email" : "mail@adamhalasz.com"
+	},
+	"license": "MIT",
+	"author" : {
+		"name"	: "Halász Ádám",
+		"email"	: "mail@adamhalasz.com",
+		"url"	:"http://adamhalasz.com/"
+	},
+	"main" : "index.js",
+	"engines" : { "node" : ">=0.8.21" }
+}
