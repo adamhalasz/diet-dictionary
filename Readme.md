@@ -15,6 +15,7 @@ npm install diet-dictionary
 
 ### Example `dictionary` table
 If you want to support more languages just create a new `column` for it and restart the server.
+
 English | Hungarian | Spanish
 ---|---|---
 Hello | Szia | Hola
