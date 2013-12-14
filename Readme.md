@@ -30,7 +30,7 @@ app.get('/', function(request, response, mysql){
 	response.head.language = 'Hungarian';
 	
 	// Translate string
-	response.head.title = message = response.head.echo('Hello World');
+	response.head.title = response.head.echo('Hello World');
 	
 	// End HTTP Response
 	response.end(response.head.title); // -> outputs "Üdv Világ!"
