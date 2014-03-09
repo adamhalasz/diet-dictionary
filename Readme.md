@@ -2,15 +2,15 @@
 With the dictionary module you can translate your app into any language using the `echo()` function and the `dictionary` table inside your mysql database.
 
 ### Install
-If you have `dietjs` then it's already installed.
+If you have `diet` then it's already installed.
 ```
 npm install diet-dictionary
 ```
 
 ### Prerequsitions
 1. Make sure you have `mysql` installed
-2. Make sure you have `dietjs` installed
-3. Make sure you have correct `mysql configuration` when you initialize your `dietjs` app
+2. Make sure you have `diet` installed
+3. Make sure you have correct `mysql configuration` when you initialize your `diet` app
 4. Create a `dictionary` table inside your mysql database
 
 ### Example `dictionary` table

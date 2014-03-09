@@ -1,6 +1,6 @@
 {
 	"name" : "diet-dictionary",
-	"version": "v0.0.2",
+	"version": "v0.0.5",
 	"description": "Translation Engine for Dietjs",
 	"keywords": ["translate", "dictionary", "translation engine", "mysql", "diet", "client side translation", "server side translation", "language", "languages"],
 	"bugs" : { 

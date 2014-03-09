@@ -1,5 +1,9 @@
 // ======= Dictionary =======
-// ======= CONSTRUCT dictionary from the database =======
+// CONSTRUCT dictionary from a myslq database
+
+// Require Template Engine
+var template = require('./library/template');
+
 exports.setup = function(app, callback){
 	
 	// Dictionary Skeleton
@@ -53,7 +57,7 @@ exports.setup = function(app, callback){
 							}
 						}
 						
-						dict.dictionary[dict.clean_words(row.English)] = index;
+						dict.dictionary[dict.clean_words(row.english)] = index;
 					});
 					create_dictionary_root(dict.dictionary);
 					sql.end();
@@ -87,7 +91,7 @@ exports.setup = function(app, callback){
 			}
 			
 			// DEFINE dictionary.js path
-			var scripts_root 	= app.options.dictionary_root || '/scripts'
+			var scripts_root 	= app.dictionary_root || '/scripts'
 			var path 			= app.public+scripts_root+'/dictionary.client';
 			
 			// ADD default language as `english`
